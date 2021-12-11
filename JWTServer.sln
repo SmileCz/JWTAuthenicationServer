@@ -1,8 +1,59 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{1B8003AB-3451-4743-B661-ABFC21286CD6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JWTAuthenticationServer.Api", "src\JWTAuthenticationServer.Api\JWTAuthenticationServer.Api.csproj", "{8BA83BE3-E227-4F9F-BAEE-2C9B197F62B5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{0C5A3019-C2A2-4A07-8D61-A1D42E20FCE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JWTAuthenticationServer.Shared", "src\JWTAuthenticationServer.Shared\JWTAuthenticationServer.Shared.csproj", "{213ECD8A-80D5-444E-8AB2-215D54FD0931}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JWTAuthenticationServer.Shared.Abstraction", "src\JWTAuthenticationServer.Shared.Abstraction\JWTAuthenticationServer.Shared.Abstraction.csproj", "{579632D7-B33E-4139-9C66-8572FCDB0217}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JWTAuthenticationServer.Application", "src\JWTAuthenticationServer.Application\JWTAuthenticationServer.Application.csproj", "{FFC8CE66-C909-4E7D-8B2B-0A9970C17268}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JWTAuthenticationServer.Domain", "src\JWTAuthenticationServer.Domain\JWTAuthenticationServer.Domain.csproj", "{B0F43523-FD12-4225-ADE4-A71EC8A412B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JWTAuthenticationServer.Infrastructure", "src\JWTAuthenticationServer.Infrastructure\JWTAuthenticationServer.Infrastructure.csproj", "{45DD2814-9DB3-4C9D-B83E-8E00AD5921FB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8BA83BE3-E227-4F9F-BAEE-2C9B197F62B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BA83BE3-E227-4F9F-BAEE-2C9B197F62B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BA83BE3-E227-4F9F-BAEE-2C9B197F62B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BA83BE3-E227-4F9F-BAEE-2C9B197F62B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{213ECD8A-80D5-444E-8AB2-215D54FD0931}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{213ECD8A-80D5-444E-8AB2-215D54FD0931}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{213ECD8A-80D5-444E-8AB2-215D54FD0931}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{213ECD8A-80D5-444E-8AB2-215D54FD0931}.Release|Any CPU.Build.0 = Release|Any CPU
+		{579632D7-B33E-4139-9C66-8572FCDB0217}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{579632D7-B33E-4139-9C66-8572FCDB0217}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{579632D7-B33E-4139-9C66-8572FCDB0217}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{579632D7-B33E-4139-9C66-8572FCDB0217}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFC8CE66-C909-4E7D-8B2B-0A9970C17268}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFC8CE66-C909-4E7D-8B2B-0A9970C17268}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFC8CE66-C909-4E7D-8B2B-0A9970C17268}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFC8CE66-C909-4E7D-8B2B-0A9970C17268}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0F43523-FD12-4225-ADE4-A71EC8A412B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0F43523-FD12-4225-ADE4-A71EC8A412B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0F43523-FD12-4225-ADE4-A71EC8A412B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0F43523-FD12-4225-ADE4-A71EC8A412B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45DD2814-9DB3-4C9D-B83E-8E00AD5921FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45DD2814-9DB3-4C9D-B83E-8E00AD5921FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45DD2814-9DB3-4C9D-B83E-8E00AD5921FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45DD2814-9DB3-4C9D-B83E-8E00AD5921FB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8BA83BE3-E227-4F9F-BAEE-2C9B197F62B5} = {1B8003AB-3451-4743-B661-ABFC21286CD6}
+		{0C5A3019-C2A2-4A07-8D61-A1D42E20FCE5} = {1B8003AB-3451-4743-B661-ABFC21286CD6}
+		{213ECD8A-80D5-444E-8AB2-215D54FD0931} = {0C5A3019-C2A2-4A07-8D61-A1D42E20FCE5}
+		{579632D7-B33E-4139-9C66-8572FCDB0217} = {0C5A3019-C2A2-4A07-8D61-A1D42E20FCE5}
+		{FFC8CE66-C909-4E7D-8B2B-0A9970C17268} = {1B8003AB-3451-4743-B661-ABFC21286CD6}
+		{B0F43523-FD12-4225-ADE4-A71EC8A412B5} = {1B8003AB-3451-4743-B661-ABFC21286CD6}
+		{45DD2814-9DB3-4C9D-B83E-8E00AD5921FB} = {1B8003AB-3451-4743-B661-ABFC21286CD6}
 	EndGlobalSection
 EndGlobal
